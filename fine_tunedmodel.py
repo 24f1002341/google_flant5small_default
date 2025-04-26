@@ -1,4 +1,4 @@
-from transformers import pipeline
+
 from transformers import pipeline, T5Tokenizer, T5ForConditionalGeneration
 
 model_path = "./flan-t5-small-finetuned"
